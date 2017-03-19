@@ -11,7 +11,7 @@ A TLS Banner Grabber, in Go
 
 ### Usage
 
-For ease of use the dockerized version relies on an input file rather than piping over stdin. We expose /var/lib/zgrab as a possible volume mount point for input file storage, a sample file is included in zinput/host.sample ; example invocations follow below.
+This dockerized version relies on an input file rather than piping over stdin. We expose /var/lib/zgrab as a possible volume mount point for input file storage, a sample file is included in zinput/host.sample ; example invocations follow below.
 
     docker run -v $GOPATH/src/github.com/baykovr/zgrab/zinput:/var/lib/zgrab baykovr/zgrab:latest --tls --port 443 --http="/" -input-file /var/lib/zgrab/host.sample
         

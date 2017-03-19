@@ -1,0 +1,9 @@
+version: "2"
+services:
+  zgrab:
+    build: .
+    image: baykovr/zgrab:latest
+    volumes:
+      - ./zinput:/var/lib/zgrab:ro
+    command: --tls --port 443 --http="/" -input-file /var/lib/zgrab/host.sample
+

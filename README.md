@@ -3,7 +3,10 @@ zgrab
 
 A TLS Banner Grabber, in Go
 
-## Building
+## Building Docker
+
+
+## Building Local
 
 You will need to have a valid `$GOPATH` set up, for more information about `$GOPATH`, see https://golang.org/doc/code.html.
 

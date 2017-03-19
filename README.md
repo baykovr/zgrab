@@ -3,9 +3,23 @@ zgrab
 
 A TLS Banner Grabber, in Go
 
-## Building Docker
+## Docker 
 
+### Building
+    docker build . -t baykovr/zgrab:latest
+    docker-compose build
 
+### Usage
+
+For ease of use the dockerized version relies on an input file rather than piping over stdin. We expose /var/lib/zgrab as a possible volume mount point for input file storage, a sample file is included in zinput/host.sample ; example invocations follow below.
+
+    docker run -v $GOPATH/src/github.com/baykovr/zgrab/zinput:/var/lib/zgrab baykovr/zgrab:latest --tls --port 443 --http="/" -input-file /var/lib/zgrab/host.sample
+        
+Alternative, modify the command section of docker-compose, invoke
+     
+     docker-compose up
+    
+    
 ## Building Local
 
 You will need to have a valid `$GOPATH` set up, for more information about `$GOPATH`, see https://golang.org/doc/code.html.

@@ -1,6 +1,5 @@
-FROM golang 
+FROM golang:1.7
 
-#ADD . /go/src/github.com/baykovr/zgrab 
 RUN go get github.com/baykovr/zgrab && \ 
 go build github.com/baykovr/zgrab
 

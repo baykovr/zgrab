@@ -9,8 +9,8 @@ package http_test
 import (
 	"errors"
 	"fmt"
-	. "github.com/zmap/zgrab/ztools/http"
-	"github.com/zmap/zgrab/ztools/http/httptest"
+	. "github.com/baykovr/zgrab/ztools/http"
+	"github.com/baykovr/zgrab/ztools/http/httptest"
 	"github.com/zmap/zcrypto/tls"
 	"io"
 	"io/ioutil"

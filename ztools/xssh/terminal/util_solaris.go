@@ -4,7 +4,7 @@
 
 // +build solaris
 
-package terminal // import "github.com/zmap/zgrab/ztools/xssh/terminal"
+package terminal // import "github.com/baykovr/zgrab/ztools/xssh/terminal"
 
 import (
 	"golang.org/x/sys/unix"

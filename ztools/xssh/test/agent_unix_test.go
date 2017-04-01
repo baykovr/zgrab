@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/zmap/zgrab/ztools/xssh"
-	"github.com/zmap/zgrab/ztools/xssh/agent"
+	"github.com/baykovr/zgrab/ztools/xssh"
+	"github.com/baykovr/zgrab/ztools/xssh/agent"
 )
 
 func DISABLED_TestAgentForward(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/zmap/zgrab/ztools/xssh"
+	"github.com/baykovr/zgrab/ztools/xssh"
 )
 
 func TestServer(t *testing.T) {

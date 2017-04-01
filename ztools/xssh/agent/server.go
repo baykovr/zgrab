@@ -16,7 +16,7 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/zmap/zgrab/ztools/xssh"
+	"github.com/baykovr/zgrab/ztools/xssh"
 	"golang.org/x/crypto/ed25519"
 )
 

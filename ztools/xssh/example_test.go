@@ -12,8 +12,8 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/zmap/zgrab/ztools/xssh"
-	"github.com/zmap/zgrab/ztools/xssh/terminal"
+	"github.com/baykovr/zgrab/ztools/xssh"
+	"github.com/baykovr/zgrab/ztools/xssh/terminal"
 )
 
 func ExampleNewServerConn() {

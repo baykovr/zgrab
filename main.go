@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/zmap/zgrab/zlib"
-	"github.com/zmap/zgrab/ztools/processing"
+	"github.com/baykovr/zgrab/zlib"
+	"github.com/baykovr/zgrab/ztools/processing"
 	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zgrab/ztools/zlog"
+	"github.com/baykovr/zgrab/ztools/zlog"
 	"github.com/zmap/zcrypto/tls"
 )
 

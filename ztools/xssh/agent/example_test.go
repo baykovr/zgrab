@@ -9,8 +9,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/zmap/zgrab/ztools/xssh"
-	"github.com/zmap/zgrab/ztools/xssh/agent"
+	"github.com/baykovr/zgrab/ztools/xssh"
+	"github.com/baykovr/zgrab/ztools/xssh/agent"
 )
 
 func ExampleClientAgent() {

@@ -9,7 +9,7 @@
 //
 // References:
 //  [PROTOCOL.agent]:    http://cvsweb.openbsd.org/cgi-bin/cvsweb/src/usr.bin/ssh/PROTOCOL.agent?rev=HEAD
-package agent // import "github.com/zmap/zgrab/ztools/xssh/agent"
+package agent // import "github.com/baykovr/zgrab/ztools/xssh/agent"
 
 import (
 	"bytes"
@@ -25,7 +25,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/zmap/zgrab/ztools/xssh"
+	"github.com/baykovr/zgrab/ztools/xssh"
 	"golang.org/x/crypto/ed25519"
 )
 

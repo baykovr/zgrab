@@ -19,14 +19,14 @@ import (
 	"net"
 	"time"
 
-	"github.com/zmap/zgrab/ztools/ftp"
-	"github.com/zmap/zgrab/ztools/scada/bacnet"
-	"github.com/zmap/zgrab/ztools/scada/dnp3"
-	"github.com/zmap/zgrab/ztools/scada/fox"
-	"github.com/zmap/zgrab/ztools/scada/siemens"
-	"github.com/zmap/zgrab/ztools/ssh"
-	"github.com/zmap/zgrab/ztools/telnet"
-	"github.com/zmap/zgrab/ztools/xssh"
+	"github.com/baykovr/zgrab/ztools/ftp"
+	"github.com/baykovr/zgrab/ztools/scada/bacnet"
+	"github.com/baykovr/zgrab/ztools/scada/dnp3"
+	"github.com/baykovr/zgrab/ztools/scada/fox"
+	"github.com/baykovr/zgrab/ztools/scada/siemens"
+	"github.com/baykovr/zgrab/ztools/ssh"
+	"github.com/baykovr/zgrab/ztools/telnet"
+	"github.com/baykovr/zgrab/ztools/xssh"
 	"github.com/zmap/zcrypto/tls"
 )
 

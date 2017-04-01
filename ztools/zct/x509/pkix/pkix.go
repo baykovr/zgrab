@@ -8,7 +8,7 @@ package pkix
 
 import (
 	// START CT CHANGES
-	"github.com/zmap/zgrab/ztools/zct/asn1"
+	"github.com/baykovr/zgrab/ztools/zct/asn1"
 	"strings"
 	// END CT CHANGES
 	"math/big"

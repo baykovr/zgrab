@@ -28,10 +28,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zmap/zgrab/ztools/ftp"
-	"github.com/zmap/zgrab/ztools/scada/bacnet"
-	"github.com/zmap/zgrab/ztools/ssh"
-	"github.com/zmap/zgrab/ztools/util"
+	"github.com/baykovr/zgrab/ztools/ftp"
+	"github.com/baykovr/zgrab/ztools/scada/bacnet"
+	"github.com/baykovr/zgrab/ztools/ssh"
+	"github.com/baykovr/zgrab/ztools/util"
 	"github.com/zmap/zcrypto/x509"
 	"github.com/zmap/zcrypto/tls"
 )

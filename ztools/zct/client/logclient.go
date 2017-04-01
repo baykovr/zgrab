@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/mreiferson/go-httpclient"
-	"github.com/zmap/zgrab/ztools/zct"
+	"github.com/baykovr/zgrab/ztools/zct"
 	"golang.org/x/net/context"
 )
 

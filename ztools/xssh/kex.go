@@ -17,7 +17,7 @@ import (
 	"io"
 	"math/big"
 
-	ztoolsKeys "github.com/zmap/zgrab/ztools/keys"
+	ztoolsKeys "github.com/baykovr/zgrab/ztools/keys"
 
 	"golang.org/x/crypto/curve25519"
 )
